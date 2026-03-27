@@ -1,0 +1,4 @@
+{
+  "assets": ["AAPL", "MSFT", "NVDA", "AMZN"],
+  "expected_daily_return": [0.0014, 0.0009, 0.0018, 0.0011]
+}

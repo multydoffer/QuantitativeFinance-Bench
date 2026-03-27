@@ -1,0 +1,36 @@
+{
+  "risk_aversion": 18.0,
+  "max_abs_weight": 0.45,
+  "gross_target": 1.2,
+  "gross_limit_post_trade": 1.35,
+  "max_participation": 0.12,
+  "lot_size": 10,
+  "half_spread_bps": {
+    "AAPL": 1.2,
+    "MSFT": 1.0,
+    "NVDA": 1.8,
+    "AMZN": 1.4
+  },
+  "impact_coeff": {
+    "AAPL": 0.22,
+    "MSFT": 0.20,
+    "NVDA": 0.30,
+    "AMZN": 0.25
+  },
+  "commission_bps": 0.8,
+  "borrow_short_bps_annual": 60.0,
+  "dlinear_lookback": 8,
+  "dlinear_ma_window": 3,
+  "dlinear_ridge": 1e-4,
+  "dlinear_alpha_blend": 0.35,
+  "risk_free_annual": 0.04,
+  "rolling_window": 20,
+  "stability_min_sharpe": 0.2,
+  "stability_max_drawdown_floor": -0.4,
+  "bootstrap_paths": 300,
+  "bootstrap_horizon_days": 20,
+  "bootstrap_block_days": 5,
+  "tail_cvar_alpha": 0.05,
+  "tail_loss_prob_limit": 0.45,
+  "min_omega_ratio": 1.02
+}
